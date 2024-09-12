@@ -84,7 +84,7 @@ export default function HeroCarousel() {
             >
               {index === currentSlide && (
                 <div
-                  className="bg-white transition-all ease-out h-1"
+                  className="bg-gray-600 transition-all ease-out h-1"
                   style={{ width: `${progress}%` }}
                 ></div>
               )}
