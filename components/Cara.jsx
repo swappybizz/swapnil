@@ -29,7 +29,7 @@ export default function HeroCarousel() {
   const [progress, setProgress] = useState(0);
 
   // Timer duration in seconds
-  const slideDuration = 3;
+  const slideDuration = 5;
 
   useEffect(() => {
     const interval = setInterval(() => {
