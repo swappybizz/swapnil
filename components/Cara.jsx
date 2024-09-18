@@ -65,9 +65,9 @@ export default function HeroCarousel() {
             <div className="absolute inset-0 bg-black bg-opacity-70 flex flex-col justify-center px-10 text-white">
               <h1 className="md:text-6xl text-4xl md:text-[6rem] font-semibold mb-4">{slide.title}</h1>
               <p className="text-lg mb-6 text-gray-300">{slide.description}</p>
-              <a href={slide.link} className="px-6 py-3 w-36 border text-white  rounded-lg hover:bg-gray-100">
+              {/* <a href={slide.link} className="px-6 py-3 w-36 border text-white  rounded-lg hover:bg-gray-100">
                 Learn More
-              </a>
+              </a> */}
             </div>
           </div>
         ))}
