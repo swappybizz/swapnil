@@ -23,12 +23,11 @@ const ProfMilestones = () => {
                 <ul className="list-disc ml-4 text-gray-400">
                   <p className='text-white -ml-4'>2021- Present</p>
                   <li>Developed AssistIT and ISOEnsure apps</li>
-                  <li>Built proprietary LLM app CI/CD pipelines</li>
-                  <li>Recognized for creating no-code agentic framework</li>
+                  <li>Built Assistit (proprietary LLM), Documentaion and Communication & CI/CD pipelines</li>
+                  <li>Featured in Innovasjonmagasinet as leader in AI Development.</li>
                 </ul>
               </div>
             </div>
-
             {/* Full Stack Developer (Admit Digital) */}
             <div className="flex relative pb-12">
               <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
