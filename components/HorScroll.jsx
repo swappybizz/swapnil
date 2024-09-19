@@ -56,7 +56,7 @@ const HorizontalScroller = () => {
       {/* Horizontal Scroll Container */}
       <div
         ref={scrollContainerRef}
-        className="flex overflow-x-auto overflow-y-hidden scrollbar-hide space-x-4 px-4 py-4 snap-x snap-mandatory md:ml-6 touch-pan-x"
+        className="flex overflow-x-auto overflow-y-hidden scrollbar-hide space-x-4 px-4 py-4  md:ml-6 "
       >
         {/* First Component: A normal text element */}
         <div className="md:w-[500px] w-3/4 flex-shrink-0 text-left bg-transparent snap-start">
